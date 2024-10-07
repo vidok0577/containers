@@ -11,7 +11,7 @@ export default class Team {
     addAll(...chars) {
         for (const i of chars) {
             this.members.add(i);
-        };
+        }
     }
 
     toArray() {
